@@ -1,0 +1,126 @@
+header{
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 0;
+    color: white;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center ;
+    background-color: #b3eaaf;
+}
+
+body{
+    background-color: white;
+    font-family: cursive;
+    background-image: url("assets/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/*
+div{
+    display: inline-block;
+}
+  
+
+/* Establecer la imagen de fondo */
+/*body {
+    background-image: url('ruta_de_tu_imagen.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+/*
+main{
+    height: 1000px;
+}*/
+
+.img1{
+    width: 250px;
+    border-radius: 50%;    
+}
+
+.img2{
+    object-fit: cover;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.links-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+}
+.nav-link {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tittle{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    /*
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    place-items: center;*/
+    
+}
+
+.intro{
+    border: solid red 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.flex-divimag {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.flex-divtext {
+    margin: 1%;
+    float: center;
+    text-align: left;
+    justify-content: right;
+    align-content: center;
+    flex: 1 1 200px;  
+    
+}
+
+.div-imag{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3eaaf;
+    height: 50px;
+   
+}
+
+.centered{
+    text-align: center;
+    vertical-align: baseline;
+}
