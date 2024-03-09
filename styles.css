@@ -22,24 +22,6 @@ body{
     margin: 0;
 }
 
-/*
-div{
-    display: inline-block;
-}
-  
-
-/* Establecer la imagen de fondo */
-/*body {
-    background-image: url('ruta_de_tu_imagen.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}*/
-/*
-main{
-    height: 1000px;
-}*/
-
 .img1{
     width: 250px;
     border-radius: 50%;    
@@ -69,10 +51,6 @@ main{
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    /*
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    place-items: center;*/
     
 }
 
@@ -100,16 +78,14 @@ main{
     text-align: left;
     justify-content: right;
     align-content: center;
-    flex: 1 1 200px;  
+    flex: 1 1 auto;  
     
 }
 
 .div-imag{
-    
     justify-content: center;
     align-items: center;
 }
-
 
 footer{
     display: flex;
@@ -117,7 +93,6 @@ footer{
     align-items: center;
     background-color: #b3eaaf;
     height: 50px;
-   
 }
 
 .centered{
